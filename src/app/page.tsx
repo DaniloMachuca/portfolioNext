@@ -1,13 +1,7 @@
 import { redirect } from "next/navigation";
 
 const Home = () => {
-  const loader = () => {
-    setTimeout(() => {
-      redirect("/home");
-    }, 100);
-  };
-
-  loader();
+  redirect("/home");
 };
 
 export default Home;

@@ -19,7 +19,7 @@ export const Content = styled.div<Omit<Props, "$color">>`
   align-items: center;
   margin: 0 auto;
   justify-content: space-between;
-  gap: 24px;
+  gap: 5%;
   padding-bottom: 5%;
 
   h4 {
@@ -43,6 +43,9 @@ export const Content = styled.div<Omit<Props, "$color">>`
     width: 40%;
     height: 40%;
     background-color: ${colors.white};
+    ${mediaQuery.phone} {
+      margin-bottom: 24px;
+    }
   }
 
   ${mediaQuery.phone} {

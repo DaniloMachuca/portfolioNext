@@ -8,6 +8,7 @@ export const List = styled.ul`
 
   ${mediaQuery.phone} {
     justify-content: space-between;
+    margin-bottom: 24px;
   }
 
   li {

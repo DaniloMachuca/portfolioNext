@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from "@/app/styles";
+import { colors, mediaQuery } from "@/app/styles";
 
 type SkillProps = {
   color: string;
@@ -62,6 +62,10 @@ export const optionList = styled.ul`
   margin: 0 auto;
   gap: 16px;
   padding-top: 32px;
+
+  ${mediaQuery.phone} {
+    flex-direction: column;
+  }
 `;
 
 export const tabBtn = styled.button`

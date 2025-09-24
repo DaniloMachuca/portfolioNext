@@ -1,10 +1,11 @@
 "use client";
 
-import Logo from "../Logo";
-import * as S from "./styles";
-import Link from "next/link";
 import { useState } from "react";
+import Link from "next/link";
+
+import Logo from "../Logo";
 import { Menu } from "@geist-ui/icons";
+import * as S from "./styles";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);

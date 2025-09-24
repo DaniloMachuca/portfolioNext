@@ -1,4 +1,5 @@
 "use client";
+
 import { createGlobalStyle, styled } from "styled-components";
 
 export const colors = {
@@ -33,4 +34,20 @@ export const GlobalStyle = createGlobalStyle`
       max-width: 80%;
       margin: 0 auto;
     }
+`;
+
+export const SectionTitle = styled.h3`
+  font-size: 44px;
+  text-shadow: none;
+  margin-bottom: 8px;
+  ${mediaQuery.tablet} {
+    font-size: 24px;
+  }
+`;
+
+export const Text = styled.p`
+  font-size: 24px;
+  ${mediaQuery.tablet} {
+    font-size: 16px;
+  }
 `;

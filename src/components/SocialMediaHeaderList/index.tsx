@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import * as S from "./styles";
+
 import { FaWhatsapp, FaGithub, FaLinkedin, FaGoogle } from "react-icons/fa";
+import * as S from "./styles";
 
 const SocialMediaHeaderList = () => {
   return (

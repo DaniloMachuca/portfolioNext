@@ -1,8 +1,8 @@
 "use client";
 
 import { type JSX } from "react";
-import * as S from "./styles";
 import Image from "next/image";
+import * as S from "./styles";
 
 export type Props = {
   children: JSX.Element;

@@ -9,7 +9,7 @@ type Props = {
 };
 
 export const Section = styled.section<Omit<Props, "textDirection">>`
-  padding: 24px 0;
+  padding: 64px 0;
   background-color: ${({ $color }) =>
     $color === "normal" ? colors.background : colors.darkerBackground};
 `;
@@ -24,15 +24,6 @@ export const Content = styled.div<Omit<Props, "$color">>`
   gap: 24px;
   padding-bottom: 5%;
 
-  h3 {
-    font-size: 44px;
-    text-shadow: none;
-    margin-bottom: 8px;
-    ${mediaQuery.tablet} {
-      font-size: 24px;
-    }
-  }
-
   h4 {
     font-size: 28px;
     color: ${colors.gray};
@@ -44,13 +35,6 @@ export const Content = styled.div<Omit<Props, "$color">>`
 
   div {
     width: 100%;
-
-    p {
-      font-size: 24px;
-      ${mediaQuery.tablet} {
-        font-size: 16px;
-      }
-    }
   }
 
   img {
@@ -58,8 +42,8 @@ export const Content = styled.div<Omit<Props, "$color">>`
     border: 5px solid ${colors.primary};
     object-fit: cover;
     max-width: 100%;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     background-color: ${colors.white};
   }
 

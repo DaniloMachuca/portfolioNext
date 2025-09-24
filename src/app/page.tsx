@@ -1,12 +1,18 @@
 "use client";
 
-import Section from "@/containers/Section";
+import { useEffect } from "react";
 import { Inter } from "next/font/google";
-import useMediaQuery from "@/utils/MediaQuery";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import useMediaQuery from "@/utils/MediaQuery";
+
+import Section from "@/containers/Section";
 import SocialMediaHeaderList from "@/components/SocialMediaHeaderList";
+import Skills from "@/components/Skills";
+import { SectionTitle, Text } from "./styles";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const titleFont = Inter({
   subsets: ["latin"],
@@ -15,11 +21,7 @@ const titleFont = Inter({
 const Home = () => {
   const isSmallScreen = useMediaQuery("max-width: 768px");
   useEffect(() => {
-    isSmallScreen
-      ? AOS.init({ disable: true })
-      : AOS.init({
-          duration: 1400,
-        });
+    isSmallScreen ? AOS.init({ disable: true }) : AOS.init({});
     window.scrollTo({
       top: 0,
     });
@@ -27,38 +29,45 @@ const Home = () => {
 
   return (
     <>
+      <Header />
       <Section img="/sobre-mim.png" textDirection="left">
         <>
           <div>
-            <h3 className={titleFont.className}>Danilo Machuca de Souza</h3>
+            <SectionTitle className={titleFont.className}>
+              Danilo Machuca de Souza
+            </SectionTitle>
             <h4>
               Desenvolvedor Front-end e estudante de Ciência da Computação na
               UNIP.
             </h4>
-            <p>
+            <Text>
               Sou naturalmente curioso e autodidata, oque me leva a explorar
               novas tecnologias e diferentes formas de resolver problemas, o que
               me permite atuar de maneira versátil em projetos digitais. Crio
               interfaces modernas e responsivas, aplicando boas práticas de
               desenvolvimento, enquanto continuo expandindo meu conhecimento
               técnico e meu alcance profissional.
-            </p>
+            </Text>
             <SocialMediaHeaderList />
           </div>
         </>
       </Section>
       <Section color="dark" img="/trabalho.jpg" textDirection="right">
         <div>
-          <h3 className={titleFont.className}>Como eu trabalho:</h3>
-          <p>
+          <SectionTitle className={titleFont.className}>
+            Como eu trabalho:
+          </SectionTitle>
+          <Text>
             Adoto uma abordagem organizada e analítica no desenvolvimento de
             software. Sou capaz de aprender novas ferramentas rapidamente e
             integrar diferentes tecnologias em um mesmo projeto. Valorizo
             comunicação clara, código bem estruturado e soluções escaláveis, que
             possam evoluir e se adaptar às necessidades futuras.
-          </p>
+          </Text>
         </div>
       </Section>
+      <Skills />
+      <Footer />
     </>
   );
 };

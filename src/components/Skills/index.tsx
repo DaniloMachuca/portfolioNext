@@ -1,5 +1,3 @@
-"use client";
-
 import { SectionTitle, Text } from "@/app/styles";
 import * as S from "./styles";
 

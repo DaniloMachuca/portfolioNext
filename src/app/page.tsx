@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 
-const Home = () => {
+const Home = async () => {
   redirect("/home");
 };
 

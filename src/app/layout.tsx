@@ -15,7 +15,7 @@ const roboto = Roboto({
   subsets: ["latin"],
 });
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -24,7 +24,7 @@ export default async function RootLayout({
     <html lang="pt-br" className={roboto.className}>
       <body>
         <GlobalStyle />
-        <div>{children}</div>
+        {children}
       </body>
     </html>
   );

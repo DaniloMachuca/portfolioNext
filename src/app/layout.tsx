@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { GlobalStyle } from "./styles";
 import { Roboto } from "next/font/google";
 import "./style.module.css";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "DM - Portfolio",

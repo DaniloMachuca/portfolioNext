@@ -3,7 +3,7 @@ import { LinkStyled } from "./styles";
 const Logo = () => {
   return (
     <>
-      <LinkStyled href="#">
+      <LinkStyled href="/home">
         <TypeAnimation
           sequence={["<DaniloMachuca />"]}
           wrapper="h1"

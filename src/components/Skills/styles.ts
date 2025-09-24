@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors, mediaQuery } from "@/app/styles";
+import { colors } from "@/app/styles";
 
 type SkillProps = {
   color: string;
@@ -32,6 +32,7 @@ export const Skill = styled.li<SkillProps>`
   margin: 0 auto;
   align-items: center;
   width: 100px;
+  height: 88px;
   color: ${(props) => props.color};
   transition: all ease-in-out 0.3s;
   div {

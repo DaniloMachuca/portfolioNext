@@ -1,75 +1,7 @@
-"use client";
-
-import { useEffect } from "react";
-import { Inter } from "next/font/google";
-
-import AOS from "aos";
-import "aos/dist/aos.css";
-import useMediaQuery from "@/utils/MediaQuery";
-
-import Section from "@/containers/Section";
-import SocialMediaHeaderList from "@/components/SocialMediaHeaderList";
-import Skills from "@/components/Skills";
-import { SectionTitle, Text } from "./styles";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-
-const titleFont = Inter({
-  subsets: ["latin"],
-});
+import { redirect } from "next/navigation";
 
 const Home = () => {
-  const isSmallScreen = useMediaQuery("max-width: 768px");
-  useEffect(() => {
-    isSmallScreen ? AOS.init({ disable: true }) : AOS.init({});
-    window.scrollTo({
-      top: 0,
-    });
-  }, []);
-
-  return (
-    <>
-      <Header />
-      <Section img="/sobre-mim.png" textDirection="left">
-        <>
-          <div>
-            <SectionTitle className={titleFont.className}>
-              Danilo Machuca de Souza
-            </SectionTitle>
-            <h4>
-              Desenvolvedor Front-end e estudante de Ciência da Computação na
-              UNIP.
-            </h4>
-            <Text>
-              Sou naturalmente curioso e autodidata, oque me leva a explorar
-              novas tecnologias e diferentes formas de resolver problemas, o que
-              me permite atuar de maneira versátil em projetos digitais. Crio
-              interfaces modernas e responsivas, aplicando boas práticas de
-              desenvolvimento, enquanto continuo expandindo meu conhecimento
-              técnico e meu alcance profissional.
-            </Text>
-            <SocialMediaHeaderList />
-          </div>
-        </>
-      </Section>
-      <Section color="dark" img="/trabalho.jpg" textDirection="right">
-        <div>
-          <SectionTitle className={titleFont.className}>
-            Como eu trabalho:
-          </SectionTitle>
-          <Text>
-            Adoto uma abordagem organizada e analítica no desenvolvimento de
-            software. Sou capaz de aprender novas ferramentas rapidamente e
-            integrar diferentes tecnologias em um mesmo projeto. Valorizo
-            comunicação clara, código bem estruturado e soluções escaláveis, que
-            possam evoluir e se adaptar às necessidades futuras.
-          </Text>
-        </div>
-      </Section>
-      <Skills />
-      <Footer />
-    </>
-  );
+  redirect("/home");
 };
 
 export default Home;

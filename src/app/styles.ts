@@ -50,4 +50,5 @@ export const Text = styled.p`
   ${mediaQuery.tablet} {
     font-size: 16px;
   }
+  margin-bottom: 16px;
 `;

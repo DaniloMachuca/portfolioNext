@@ -23,7 +23,7 @@ const Header = () => {
             <Link href="#">Formação Acadêmica</Link>
           </li>
           <li>
-            <Link href="#">Experiências</Link>
+            <Link href="/home/experiencias">Experiências</Link>
           </li>
           <li>
             <Link href="#">Contatos</Link>

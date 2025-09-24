@@ -38,8 +38,8 @@ const Home = () => {
               UNIP.
             </h4>
             <Text>
-              Sou naturalmente curioso e autodidata, oque me leva a explorar
-              novas tecnologias e diferentes formas de resolver problemas, o que
+              Sou naturalmente curioso e autodidata, o que me leva a explorar
+              novas tecnologias e diferentes formas de resolver problemas, isso
               me permite atuar de maneira versátil em projetos digitais. Crio
               interfaces modernas e responsivas, aplicando boas práticas de
               desenvolvimento, enquanto continuo expandindo meu conhecimento

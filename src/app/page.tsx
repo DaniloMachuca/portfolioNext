@@ -9,7 +9,7 @@ const Home = () => {
     }, 100);
   };
 
-  return <>{loader()}</>;
+  loader();
 };
 
 export default Home;

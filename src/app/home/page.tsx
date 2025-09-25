@@ -39,11 +39,11 @@ const Home = () => {
             </h4>
             <Text>
               Sou naturalmente curioso e autodidata, o que me leva a explorar
-              novas tecnologias e diferentes formas de resolver problemas, isso
-              me permite atuar de maneira versátil na criação de softwares. Crio
+              novas tecnologias e diferentes formas de resolver problemas. Por
+              isso atuo de maneira versátil na criação de softwares, criando
               interfaces modernas e responsivas, aplicando boas práticas de
-              desenvolvimento, enquanto continuo expandindo meu conhecimento
-              técnico e meu alcance profissional.
+              desenvolvimento e expandindo continuamente meu conhecimento
+              técnico e alcance profissional.
             </Text>
             <SocialMediaHeaderList />
           </div>

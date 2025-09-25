@@ -34,10 +34,12 @@ import {
   SiVercel,
   SiStyledcomponents,
   SiTailwindcss,
+  SiKubernetes,
 } from "react-icons/si";
 
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { BsBoxSeam } from "react-icons/bs";
+import { MdOutlineViewKanban } from "react-icons/md";
 
 export interface Project {
   id: string;
@@ -153,4 +155,16 @@ export const skills: Skills[] = [
   },
   { name: "Figma", category: "tools", icon: FaFigma, color: "#F24E1E" },
   { name: "GitHub", category: "tools", icon: FaGithub, color: "#000000" },
+  {
+    name: "Kanban",
+    category: "tools",
+    icon: MdOutlineViewKanban,
+    color: "#0066ffff",
+  },
+  {
+    name: "Kubernetes",
+    category: "tools",
+    icon: SiKubernetes,
+    color: "#326CE5",
+  },
 ];

@@ -40,7 +40,7 @@ const Home = () => {
             <Text>
               Sou naturalmente curioso e autodidata, o que me leva a explorar
               novas tecnologias e diferentes formas de resolver problemas, isso
-              me permite atuar de maneira versátil em projetos digitais. Crio
+              me permite atuar de maneira versátil na criação de softwares. Crio
               interfaces modernas e responsivas, aplicando boas práticas de
               desenvolvimento, enquanto continuo expandindo meu conhecimento
               técnico e meu alcance profissional.
@@ -56,10 +56,14 @@ const Home = () => {
           </SectionTitle>
           <Text>
             Adoto uma abordagem organizada e analítica no desenvolvimento de
-            software. Sou capaz de aprender novas ferramentas rapidamente e
-            integrar diferentes tecnologias em um mesmo projeto. Valorizo
-            comunicação clara, código bem estruturado e soluções escaláveis, que
-            possam evoluir e se adaptar às necessidades futuras.
+            software, integrando diferentes tecnologias em um mesmo projeto e
+            aprendendo novas ferramentas rapidamente. Valorizo comunicação
+            clara, código bem estruturado e soluções escaláveis, que possam
+            evoluir e se adaptar às necessidades futuras. Além disso, utilizo
+            metodologias ágeis, como Scrum e Kanban, para gerenciar tarefas de
+            forma eficiente, facilitar a colaboração entre equipes e garantir
+            entregas contínuas e adaptáveis às mudanças nos requisitos do
+            projeto.
           </Text>
         </div>
       </Section>

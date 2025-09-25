@@ -40,7 +40,7 @@ const Home = () => {
             <Text>
               Sou naturalmente curioso e autodidata, o que me leva a explorar
               novas tecnologias e diferentes formas de resolver problemas. Por
-              isso atuo de maneira versátil na criação de softwares, criando
+              isso, atuo de maneira versátil na criação de softwares, criando
               interfaces modernas e responsivas, aplicando boas práticas de
               desenvolvimento e expandindo continuamente meu conhecimento
               técnico e alcance profissional.

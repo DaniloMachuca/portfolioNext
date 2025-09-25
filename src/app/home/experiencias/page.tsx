@@ -14,7 +14,7 @@ const Experiences = () => {
             Minha trajetória profissional e projetos estão reunidos aqui. Grande
             parte do meu trabalho está focada em criar{" "}
             <b>interfaces modernas e responsivas</b>, com ênfase em{" "}
-            <b>desenvolvimento front-end</b>, <b>componentização</b> e uso de{" "}
+            <b>desenvolvimento front-end</b>, <b>componentização</b>, uso de{" "}
             <b>frameworks e bibliotecas</b>. Também atuo com{" "}
             <b>controle de versão</b>, <b>estilização modular</b> e{" "}
             <b>integração com APIs</b>.

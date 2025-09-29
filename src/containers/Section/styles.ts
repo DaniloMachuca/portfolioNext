@@ -29,6 +29,9 @@ export const Content = styled.div<Omit<Props, "$color">>`
     ${mediaQuery.tablet} {
       font-size: 18px;
     }
+    ${mediaQuery.laptop} {
+      font-size: 20px;
+    }
   }
 
   div {

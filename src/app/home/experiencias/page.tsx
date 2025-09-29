@@ -1,6 +1,7 @@
 "use client";
 
 import Section from "@/containers/Section";
+import ProjectList from "@/containers/ProjectList";
 import { SectionTitle, Text } from "../../styles";
 import * as S from "./styles";
 
@@ -29,6 +30,7 @@ const Experiences = () => {
           </Text>
         </S.Expiriences>
       </Section>
+      <ProjectList />
     </>
   );
 };

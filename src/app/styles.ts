@@ -17,6 +17,7 @@ export const colors = {
 export const mediaQuery = {
   tablet: "@media (max-width: 1023px)",
   phone: "@media (max-width: 767px)",
+  laptop: "@media (max-width: 1439px)",
 };
 
 export const GlobalStyle = createGlobalStyle`
@@ -40,6 +41,9 @@ export const SectionTitle = styled.h3`
   font-size: 44px;
   text-shadow: none;
   margin-bottom: 8px;
+  ${mediaQuery.laptop} {
+    font-size: 32px;
+  }
   ${mediaQuery.tablet} {
     font-size: 24px;
   }
@@ -48,6 +52,9 @@ export const SectionTitle = styled.h3`
 export const Text = styled.p`
   font-size: 24px;
   ${mediaQuery.tablet} {
+    font-size: 12px;
+  }
+  ${mediaQuery.laptop} {
     font-size: 16px;
   }
   margin-bottom: 16px;

@@ -285,8 +285,8 @@ export const projects: Project[] = [
       "O projeto teve como objetivo também treinar habilidades de pesquisa acadêmica, sintetizando informações relevantes em uma estrutura de página web que fosse didática e visualmente organizada.",
       "Apesar de ser um projeto simples em termos de funcionalidade, ele demonstra atenção a boas práticas de HTML e CSS, organização de conteúdo e aplicação de metodologias modernas de desenvolvimento front-end.",
     ],
-    github: "https://github.com/seuusuario/vale-do-paraiba",
-    deploy: "https://vale-do-paraiba.vercel.app",
+    github: "https://github.com/DaniloMachuca/APS-Automotivo",
+    deploy: "https://industria-automotiva-vale-do-paraiba.vercel.app/",
     shortDescription:
       "Página acadêmica sobre a indústria automotiva do Vale do Paraíba, desenvolvida com HTML e CSS aplicando SMACSS e BEM.",
   },
@@ -303,8 +303,8 @@ export const projects: Project[] = [
       "O projeto serve como um exemplo de aplicação de front-end voltado para negócios locais, combinando responsividade, usabilidade e pequenas interações dinâmicas.",
       "Embora simples, o site demonstra capacidade de integrar frameworks de estilo com scripts personalizados para criar funcionalidades interativas e melhor experiência do usuário.",
     ],
-    github: "https://github.com/seuusuario/restaurante",
-    deploy: "https://restaurante.vercel.app",
+    github: "https://github.com/DaniloMachuca/site_Restaurante",
+    deploy: "https://site-restaurante-danilomachuca-bootstrap.vercel.app/",
     shortDescription:
       "Site responsivo para restaurante, desenvolvido com Bootstrap e JavaScript, incluindo funcionalidades interativas no cardápio.",
   },
@@ -330,8 +330,8 @@ export const projects: Project[] = [
       "O projeto tem como objetivo demonstrar boas práticas em React, incluindo gerenciamento de estado, estilização modular e persistência de dados no front-end.",
       "A aplicação é totalmente funcional para adicionar, editar e remover contatos, servindo como estudo para manipulação de dados locais e integração com React e Redux.",
     ],
-    github: "https://github.com/seuusuario/contact-list",
-    deploy: "https://contact-list.vercel.app",
+    github: "https://github.com/DaniloMachuca/lista-de-contatos-react",
+    deploy: "https://lista-de-contatos-react-rho.vercel.app/",
     shortDescription:
       "Aplicação de gerenciamento de contatos em React, com Redux, Styled Components e persistência de dados no LocalStorage.",
   },

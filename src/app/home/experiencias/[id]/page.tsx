@@ -1,5 +1,7 @@
 import { getProjectById } from "@/utils";
 import { notFound } from "next/navigation";
+import Hero from "@/components/Hero";
+import ProjectDetails from "@/components/ProjectDetails";
 
 const ProjectPage = async (props: { params: Promise<{ id: string }> }) => {
   const params = await props.params;
@@ -11,7 +13,8 @@ const ProjectPage = async (props: { params: Promise<{ id: string }> }) => {
   }
   return (
     <>
-      <p>{project.title}</p>
+      <Hero project={project} />
+      <ProjectDetails project={project} />
     </>
   );
 };

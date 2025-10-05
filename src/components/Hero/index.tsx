@@ -14,8 +14,12 @@ const Hero = ({ project }: Props) => {
           <SectionTitle>{project.title}</SectionTitle>
           <Text>{project.shortDescription}</Text>
           <div>
-            <S.Btn href={project.deploy}>Ver Projeto</S.Btn>
-            <S.Btn href={project.github}>Ver Código</S.Btn>
+            <S.Btn href={project.deploy} target="_blank">
+              Ver Projeto
+            </S.Btn>
+            <S.Btn href={project.github} target="_blank">
+              Ver Código
+            </S.Btn>
           </div>
         </S.Infos>
       </div>

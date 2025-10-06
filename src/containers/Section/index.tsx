@@ -7,9 +7,16 @@ export type Props = {
   img: string;
   color?: "normal" | "dark";
   textDirection?: "right" | "left";
+  view?: "100vh";
 };
 
-const Section = ({ img, children, color = "normal", textDirection }: Props) => {
+const Section = ({
+  img,
+  children,
+  color = "normal",
+  textDirection,
+  view,
+}: Props) => {
   function directionCheck() {
     if (textDirection === "left") {
       return "fade-left";
@@ -19,7 +26,7 @@ const Section = ({ img, children, color = "normal", textDirection }: Props) => {
   }
 
   return (
-    <S.Section $color={color}>
+    <S.Section $view={view} $color={color}>
       <S.Content $textDirection={textDirection} data-aos={directionCheck()}>
         <Image src={img} alt={img} width={900} height={900} />
         {children}

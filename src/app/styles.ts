@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { createGlobalStyle, styled } from "styled-components";
 
 export const colors = {
@@ -58,4 +59,22 @@ export const Text = styled.p`
     font-size: 16px;
   }
   margin-bottom: 16px;
+`;
+
+export const Btn = styled(Link)`
+  text-decoration: none;
+  color: ${colors.primary};
+  border: 3px solid ${colors.primary};
+  transition: border ease-in-out 0.3s;
+  text-align: center;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all ease-in-out 0.3s;
+  margin-right: 16px;
+
+  &:hover {
+    transition: all ease-in-out 0.3s;
+    background-color: ${colors.primary};
+    color: ${colors.background};
+  }
 `;

@@ -1,6 +1,6 @@
 import { Project } from "@/data/data";
 import * as S from "./styles";
-import { SectionTitle, Text } from "@/app/styles";
+import { SectionTitle, Text, Btn } from "@/app/styles";
 
 type Props = {
   project: Project;
@@ -14,12 +14,12 @@ const Hero = ({ project }: Props) => {
           <SectionTitle>{project.title}</SectionTitle>
           <Text>{project.shortDescription}</Text>
           <div>
-            <S.Btn href={project.deploy} target="_blank">
+            <Btn href={project.deploy} target="_blank">
               Ver Projeto
-            </S.Btn>
-            <S.Btn href={project.github} target="_blank">
+            </Btn>
+            <Btn href={project.github} target="_blank">
               Ver Código
-            </S.Btn>
+            </Btn>
           </div>
         </S.Infos>
       </div>

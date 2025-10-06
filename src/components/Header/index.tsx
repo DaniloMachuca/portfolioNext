@@ -26,7 +26,7 @@ const Header = () => {
             <Link href="/home/experiencias">Experiências</Link>
           </li>
           <li>
-            <Link href="#">Contatos</Link>
+            <Link href="/home/contato">Contatos</Link>
           </li>
         </S.LinkList>
         <S.MobileBtn onClick={toggleMenu}>

@@ -4,10 +4,12 @@ import { colors, mediaQuery } from "@/app/styles";
 type Props = {
   $color: "normal" | "dark";
   $textDirection?: "right" | "left";
+  $view?: "100vh";
 };
 
 export const Section = styled.section<Omit<Props, "textDirection">>`
   padding: 64px 0;
+  ${({ $view }) => $view && `min-height: ${$view};`}
   background-color: ${({ $color }) =>
     $color === "normal" ? colors.background : colors.darkerBackground};
 `;

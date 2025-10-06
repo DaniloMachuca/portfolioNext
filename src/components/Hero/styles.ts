@@ -53,21 +53,3 @@ export const Infos = styled.div`
     }
   }
 `;
-
-export const Btn = styled(Link)`
-  text-decoration: none;
-  color: ${colors.primary};
-  border: 3px solid ${colors.primary};
-  transition: border ease-in-out 0.3s;
-  text-align: center;
-  padding: 8px 16px;
-  border-radius: 6px;
-  transition: all ease-in-out 0.3s;
-  margin-right: 16px;
-
-  &:hover {
-    transition: all ease-in-out 0.3s;
-    background-color: ${colors.primary};
-    color: ${colors.background};
-  }
-`;

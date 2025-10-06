@@ -35,7 +35,7 @@ const Header = () => {
         <S.MobileMenu className={menu ? "active" : ""}>
           <Link href="#">Formação Acadêmica</Link>
           <Link href="/home/experiencias">Experiências</Link>
-          <Link href="#">Contatos</Link>
+          <Link href="/home/contato">Contatos</Link>
         </S.MobileMenu>
       </div>
     </S.Header>

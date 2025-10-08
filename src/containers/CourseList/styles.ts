@@ -18,10 +18,6 @@ export const CourseList = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   gap: 5%;
 
-  ${mediaQuery.laptop} {
-    gap: 3%;
-  }
-
   ${mediaQuery.tablet} {
     grid-template-columns: 1fr 1fr;
   }

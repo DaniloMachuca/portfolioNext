@@ -356,7 +356,7 @@ export const Courses: Course[] = [
   },
   {
     id: "2",
-    title: "Profissão: Engenheiro de Front-end",
+    title: "Engenheiro de Front-end",
     certificate:
       "https://lms.ebaconline.com.br/certs/validate/59283-53648-65032-89233",
     image: "/CourseImages/engenheiro-de-front-end.png",

@@ -7,18 +7,19 @@ export const CourseCard = styled.div`
   border: 3px solid ${colors.white};
   background-color: ${colors.darkerBackground};
   transition: all ease 0.3s;
-
-  img {
-    height: 100%;
-    max-width: 200px;
-    object-fit: scale-down;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
 `;
 
 export const TextContainer = styled.div`
+  height: 100%;
   border-top: 3px solid ${colors.white};
   padding-top: 16px;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   span {
     color: ${colors.gray};
@@ -26,8 +27,13 @@ export const TextContainer = styled.div`
 `;
 
 export const ImageContainer = styled.div`
+  height: 100%;
   position: relative;
-  height: 70%;
+  img {
+    height: 200px;
+    max-width: 200px;
+    object-fit: scale-down;
+  }
 `;
 
 export const TextOverlay = styled.div`
@@ -39,11 +45,11 @@ export const TextOverlay = styled.div`
   align-items: center;
   position: absolute;
   margin: auto 0;
-  top: -16px;
   background-color: rgba(0, 0, 0, 0.8);
   transition: all ease 0.3s;
   opacity: 0;
   display: flex;
+  top: -16px;
 
   ${ImageContainer}:hover & {
     opacity: 1;

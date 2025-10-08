@@ -11,7 +11,7 @@ export const ProjectList = styled.div`
   padding-top: 48px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-bottom: 24px;
+  padding-bottom: 64px;
 
   ${mediaQuery.tablet} {
     grid-template-columns: 1fr 1fr;

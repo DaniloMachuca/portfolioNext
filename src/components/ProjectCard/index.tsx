@@ -1,7 +1,6 @@
 import { Project } from "@/data/data";
 import Image from "next/image";
 import * as S from "./styles";
-import { SectionTitle } from "@/app/styles";
 
 type Props = {
   project: Project;

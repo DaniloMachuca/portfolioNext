@@ -61,6 +61,14 @@ export interface Skills {
   color: string;
 }
 
+export interface Course {
+  id: string;
+  title: string;
+  certificate: string;
+  image: string;
+  place: string;
+}
+
 export const skills: Skills[] = [
   // -- Front-End --
   { name: "HTML5", category: "frontend", icon: FaHtml5, color: "#E34F26" },
@@ -334,5 +342,24 @@ export const projects: Project[] = [
     deploy: "https://lista-de-contatos-react-rho.vercel.app/",
     shortDescription:
       "Aplicação de gerenciamento de contatos em React, com Redux, Styled Components e persistência de dados no LocalStorage.",
+  },
+];
+
+export const Courses: Course[] = [
+  {
+    id: "1",
+    title: "Introdução a Programação",
+    certificate:
+      "https://lms.ebaconline.com.br/certs/validate/92933-53648-14601-89385 ",
+    image: "/CourseImages/portugol.png",
+    place: "EBAC",
+  },
+  {
+    id: "2",
+    title: "Profissão: Engenheiro de Front-end",
+    certificate:
+      "https://lms.ebaconline.com.br/certs/validate/59283-53648-65032-89233",
+    image: "/CourseImages/engenheiro-de-front-end.png",
+    place: "EBAC",
   },
 ];

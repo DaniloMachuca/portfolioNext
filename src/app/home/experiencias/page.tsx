@@ -4,8 +4,16 @@ import Section from "@/containers/Section";
 import ProjectList from "@/containers/ProjectList";
 import { SectionTitle, Text } from "../../styles";
 import * as S from "./styles";
+import { useEffect } from "react";
+import Aos from "aos";
 
 const Experiences = () => {
+  useEffect(() => {
+    Aos.init();
+    window.scrollTo({
+      top: 0,
+    });
+  }, []);
   return (
     <>
       <Section img="/experiencia.jpg">

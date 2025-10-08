@@ -20,7 +20,7 @@ const Header = () => {
         <Logo />
         <S.LinkList>
           <li>
-            <Link href="#">Formação Acadêmica</Link>
+            <Link href="/home/estudos">Formação Acadêmica</Link>
           </li>
           <li>
             <Link href="/home/experiencias">Experiências</Link>
@@ -33,7 +33,7 @@ const Header = () => {
           <Menu />
         </S.MobileBtn>
         <S.MobileMenu className={menu ? "active" : ""}>
-          <Link href="#">Formação Acadêmica</Link>
+          <Link href="/home/estudos">Formação Acadêmica</Link>
           <Link href="/home/experiencias">Experiências</Link>
           <Link href="/home/contato">Contatos</Link>
         </S.MobileMenu>

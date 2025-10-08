@@ -6,7 +6,7 @@ import * as S from "./styles";
 
 const ProjectList = () => {
   return (
-    <S.Projects>
+    <S.Projects data-aos="fade-up">
       <SectionTitle>Projetos em destaque: </SectionTitle>
       <Text>
         Aqui estão alguns projetos que desenvolvi durante minha tragetória como

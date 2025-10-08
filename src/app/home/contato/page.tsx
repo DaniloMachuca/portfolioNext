@@ -3,9 +3,16 @@ import { Btn, SectionTitle, Text } from "@/app/styles";
 import SocialMediaHeaderList from "@/components/SocialMediaHeaderList";
 import Section from "@/containers/Section";
 import * as S from "./styles";
-import Link from "next/link";
+import { useEffect } from "react";
+import Aos from "aos";
 
 const Contact = () => {
+  useEffect(() => {
+    Aos.init();
+    window.scrollTo({
+      top: 0,
+    });
+  }, []);
   return (
     <S.ImageCircle>
       <Section img="/foto-de-perfil.jpg" textDirection="right" view="100vh">

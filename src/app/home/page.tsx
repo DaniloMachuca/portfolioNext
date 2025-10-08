@@ -17,9 +17,8 @@ const titleFont = Inter({
 });
 
 const Home = () => {
-  const isSmallScreen = useMediaQuery("max-width: 768px");
   useEffect(() => {
-    isSmallScreen ? AOS.init({ disable: true }) : AOS.init({});
+    AOS.init();
     window.scrollTo({
       top: 0,
     });

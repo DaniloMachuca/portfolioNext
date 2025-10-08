@@ -11,7 +11,7 @@ type Props = {
 const GithubRepoCard = ({ repo }: Props) => {
   return (
     <S.RepoCard>
-      <Link href={repo.html_url}>
+      <Link href={repo.html_url} target="_blank">
         <Text>{repo.name}</Text>
       </Link>
     </S.RepoCard>

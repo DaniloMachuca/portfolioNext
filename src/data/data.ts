@@ -69,6 +69,15 @@ export interface Course {
   place: string;
 }
 
+export interface Experience {
+  id: string;
+  title: string;
+  position: string;
+  company: string;
+  date: string;
+  description: string;
+}
+
 export const skills: Skills[] = [
   // -- Front-End --
   { name: "HTML5", category: "frontend", icon: FaHtml5, color: "#E34F26" },
@@ -361,5 +370,17 @@ export const Courses: Course[] = [
       "https://lms.ebaconline.com.br/certs/validate/59283-53648-65032-89233",
     image: "/CourseImages/engenheiro-de-front-end.png",
     place: "EBAC",
+  },
+];
+
+export const experiences: Experience[] = [
+  {
+    id: "1",
+    title: "Desenvolvedor Front-End Freelancer",
+    company: "Freelancer",
+    date: "2024 - Atual",
+    description:
+      "Desenvolvi interfaces web responsivas e modernas para diversos clientes, utilizando principalmente react e bootstrap.",
+    position: "Desenvolvedor Front-End",
   },
 ];

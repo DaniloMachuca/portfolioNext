@@ -1,6 +1,6 @@
+import Link from "next/link";
 import styled from "styled-components";
 import { colors } from "@/app/styles";
-import Link from "next/link";
 
 export const Reset = styled(Link)`
   text-decoration: none;

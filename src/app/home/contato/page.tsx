@@ -3,6 +3,7 @@ import { Btn, SectionTitle, Text } from "@/app/styles";
 import SocialMediaHeaderList from "@/components/SocialMediaHeaderList";
 import Section from "@/containers/Section";
 import * as S from "./styles";
+
 import { useEffect } from "react";
 import Aos from "aos";
 

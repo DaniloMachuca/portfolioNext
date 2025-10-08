@@ -1,5 +1,8 @@
-import { Project } from "@/data/data";
+"use client";
+
 import Image from "next/image";
+import { Project } from "@/data/data";
+
 import * as S from "./styles";
 
 type Props = {

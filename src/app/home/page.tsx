@@ -5,7 +5,6 @@ import { Inter } from "next/font/google";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import useMediaQuery from "@/utils/MediaQuery";
 
 import Section from "@/containers/Section";
 import SocialMediaHeaderList from "@/components/SocialMediaHeaderList";

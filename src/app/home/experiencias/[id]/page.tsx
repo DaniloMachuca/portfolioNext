@@ -1,5 +1,6 @@
-import { getProjectById } from "@/utils";
 import { notFound } from "next/navigation";
+import { getProjectById } from "@/utils";
+
 import Hero from "@/components/Hero";
 import ProjectDetails from "@/components/ProjectDetails";
 

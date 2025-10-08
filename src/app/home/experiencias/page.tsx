@@ -1,19 +1,11 @@
-"use client";
-
+import { SectionTitle, Text } from "../../styles";
 import Section from "@/containers/Section";
 import ProjectList from "@/containers/ProjectList";
-import { SectionTitle, Text } from "../../styles";
+import ExpirienceList from "@/containers/ExpirienceList";
+import GithubReposList from "@/containers/GithubReposList";
 import * as S from "./styles";
-import { useEffect } from "react";
-import Aos from "aos";
 
 const Experiences = () => {
-  useEffect(() => {
-    Aos.init();
-    window.scrollTo({
-      top: 0,
-    });
-  }, []);
   return (
     <>
       <Section img="/experiencia.jpg">
@@ -38,7 +30,9 @@ const Experiences = () => {
           </Text>
         </S.Expiriences>
       </Section>
+      <ExpirienceList />
       <ProjectList />
+      <GithubReposList />
     </>
   );
 };

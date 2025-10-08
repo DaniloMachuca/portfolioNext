@@ -1,3 +1,5 @@
+"use client";
+
 import { mediaQuery } from "@/app/styles";
 import styled from "styled-components";
 
@@ -5,6 +7,7 @@ export const Projects = styled.section`
   max-width: 80%;
   margin: 0 auto;
   text-align: center;
+  padding-block: 64px;
 `;
 
 export const ProjectList = styled.div`

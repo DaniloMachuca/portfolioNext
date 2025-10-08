@@ -1,8 +1,9 @@
 import { Course } from "@/data/data";
 import Image from "next/image";
 import Link from "next/link";
+
+import { Text } from "@/app/styles";
 import * as S from "./styles";
-import { SectionTitle, Text } from "@/app/styles";
 
 type Props = {
   course: Course;

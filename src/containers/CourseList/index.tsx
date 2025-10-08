@@ -1,8 +1,8 @@
 import { Courses } from "@/data/data";
+
 import CourseCard from "@/components/CourseCard";
-import * as S from "./styles";
 import { SectionTitle, Text } from "@/app/styles";
-import Aos from "aos";
+import * as S from "./styles";
 
 const CourseList = () => {
   return (

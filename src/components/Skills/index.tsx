@@ -1,9 +1,8 @@
-import { SectionTitle, Text } from "@/app/styles";
-import * as S from "./styles";
-
+import { useState } from "react";
 import { skills } from "@/data/data";
 
-import { useState } from "react";
+import { SectionTitle, Text } from "@/app/styles";
+import * as S from "./styles";
 
 const Skills = () => {
   const getSkillFiltered = (s: string) => {

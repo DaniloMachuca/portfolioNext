@@ -1,5 +1,6 @@
 import { type JSX } from "react";
 import Image from "next/image";
+
 import * as S from "./styles";
 
 export type Props = {

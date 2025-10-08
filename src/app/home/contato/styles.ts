@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import { Btn } from "@/app/styles";
-import Link from "next/link";
 
 export const Contact = styled.div`
   text-align: center;

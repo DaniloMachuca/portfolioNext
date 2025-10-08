@@ -1,7 +1,7 @@
+import { projects } from "@/data/data";
+
 import ProjectCard from "@/components/ProjectCard";
 import { SectionTitle, Text } from "@/app/styles";
-
-import { projects } from "@/data/data";
 import * as S from "./styles";
 
 const ProjectList = () => {

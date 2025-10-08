@@ -1,10 +1,11 @@
 "use client";
 
+import { useEffect } from "react";
+import Aos from "aos";
+
 import Section from "@/containers/Section";
 import { SectionTitle, Text } from "@/app/styles";
 import CourseList from "@/containers/CourseList";
-import { useEffect } from "react";
-import Aos from "aos";
 
 const Study = () => {
   useEffect(() => {

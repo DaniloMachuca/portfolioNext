@@ -2,7 +2,6 @@
 
 import { colors } from "@/app/styles";
 import styled from "styled-components";
-import Link from "next/link";
 
 export const Banner = styled.div`
   position: relative;

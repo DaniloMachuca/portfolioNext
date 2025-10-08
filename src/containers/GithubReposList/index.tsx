@@ -12,7 +12,7 @@ const GithubReposList = async () => {
 
   return (
     <S.background>
-      <S.RepoListSection>
+      <S.RepoListSection data-aos="fade-up">
         <SectionTitle>Repositórios no GitHub</SectionTitle>
         <Text>
           Todos os repositórios do meu GitHub para meus projetos pessoais e

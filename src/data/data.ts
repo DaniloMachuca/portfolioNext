@@ -216,6 +216,7 @@ export const projects: Project[] = [
       "HTML5",
       "CSS3",
       "JavaScript (ES6+)",
+      "TypeScript",
     ],
     description: [
       "O eFood é um site inspirado em aplicativos de delivery, desenvolvido com React iniciado com Vite para proporcionar uma experiência dinâmica e interativa aos usuários. O layout foi planejado para ser responsivo, garantindo boa usabilidade em dispositivos móveis e desktops.",
@@ -273,6 +274,7 @@ export const projects: Project[] = [
       "HTML5",
       "CSS3",
       "JavaScript (ES6+)",
+      "TypeScript",
     ],
     description: [
       "O ePlay é um e-commerce de jogos desenvolvido com React, criado para simular a experiência de compra de produtos digitais, incluindo visualização de produtos, adição ao carrinho e checkout.",
@@ -338,6 +340,7 @@ export const projects: Project[] = [
       "HTML5",
       "CSS3",
       "JavaScript (ES6+)",
+      "TypeScript",
     ],
     description: [
       "O projeto Lista de Contatos é uma aplicação desenvolvida em React para gerenciar informações de contatos de forma simples e prática.",
@@ -351,6 +354,34 @@ export const projects: Project[] = [
     deploy: "https://lista-de-contatos-react-rho.vercel.app/",
     shortDescription:
       "Aplicação de gerenciamento de contatos em React, com Redux, Styled Components e persistência de dados no LocalStorage.",
+  },
+  {
+    id: "course-market",
+    title: "Course Market",
+    image: "/ProjectsImages/course-market.png",
+    skillsUsed: ["Next.js", "Redux Toolkit", "TailwindCSS"],
+    AllSkills: [
+      "Next.js",
+      "React",
+      "Redux Toolkit",
+      "TailwindCSS",
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "TypeScript",
+    ],
+    description: [
+      "O Course Market é uma plataforma didática desenvolvida com Next.js para simular um marketplace simples de compra de cursos. O projeto tem como foco a prática de conceitos modernos de front-end, incluindo criação de páginas, gerenciamento de estado global e componentização.",
+      "A interface foi construída com TailwindCSS, garantindo um layout moderno, responsivo e fácil de manter. A Home apresenta uma seção de cursos em destaque, utilizando imagens de placeholder para simular um catálogo real.",
+      "O estado global da aplicação foi implementado com Redux Toolkit, permitindo o controle eficiente de funcionalidades como cursos favoritos e itens adicionados ao carrinho.",
+      "A página de listagem completa de cursos possui filtros por categoria, possibilitando que o usuário refine os resultados de forma dinâmica.",
+      "O Checkout conta com um formulário validado, incluindo campos como nome, email e endereço. Os dados do comprador são estruturados de forma independente, permitindo fácil integração com APIs reais no futuro.",
+      "Além da simulação visual e funcional, o projeto foi desenvolvido com atenção à escalabilidade, possibilitando transformá-lo em um e-commerce completo com backend, autenticação e sistema de pagamento.",
+    ],
+    github: "https://github.com/DaniloMachuca/course-market",
+    deploy: "https://course-market-danilo-machuca.vercel.app/",
+    shortDescription:
+      "Marketplace didático de cursos, desenvolvido com Next.js, Redux Toolkit e TailwindCSS, incluindo favoritos, filtros e checkout validado.",
   },
 ];
 

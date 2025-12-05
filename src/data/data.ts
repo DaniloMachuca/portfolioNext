@@ -253,8 +253,8 @@ export const projects: Project[] = [
       "Clone visual do site Disney+, desenvolvido com Sass e compilado com Gulp, focado em layout e responsividade.",
   },
   {
-    id: "eplay (API desativada)",
-    title: "ePlay",
+    id: "eplay",
+    title: "ePlay (API desativada)",
     image: "/ProjectsImages/eplay.png",
     skillsUsed: [
       "React (Hooks)",

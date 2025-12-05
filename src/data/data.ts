@@ -196,7 +196,7 @@ export const skills: Skills[] = [
 export const projects: Project[] = [
   {
     id: "efood",
-    title: "eFood",
+    title: "eFood (API desativada)",
     image: "/ProjectsImages/efood.png",
     skillsUsed: [
       "React (Hooks)",
@@ -253,7 +253,7 @@ export const projects: Project[] = [
       "Clone visual do site Disney+, desenvolvido com Sass e compilado com Gulp, focado em layout e responsividade.",
   },
   {
-    id: "eplay",
+    id: "eplay (API desativada)",
     title: "ePlay",
     image: "/ProjectsImages/eplay.png",
     skillsUsed: [

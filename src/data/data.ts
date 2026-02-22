@@ -383,6 +383,33 @@ export const projects: Project[] = [
     shortDescription:
       "Marketplace didático de cursos, desenvolvido com Next.js, Redux Toolkit e TailwindCSS, incluindo favoritos, filtros e checkout validado.",
   },
+  {
+    id: "email-classifier",
+    title: "Email Classifier",
+    image: "/ProjectsImages/email-classifier.png",
+    skillsUsed: ["React", "Python", "Redux Toolkit"],
+    AllSkills: [
+      "React",
+      "Python",
+      "Redux Toolkit",
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "TypeScript",
+    ],
+    description: [
+      "O Email Classifier AI é uma plataforma inteligente desenvolvida com React e TypeScript para automatizar a triagem de e-mails corporativos. O projeto utiliza modelos de linguagem de larga escala (Llama-3 via Groq) para classificar mensagens e anexos em tempo real.",
+      "A interface foi construída com Styled Components, permitindo uma estilização modular e dinâmica que reage visualmente aos feedbacks da IA. O layout é totalmente responsivo e focado em produtividade.",
+      "Um diferencial central da aplicação é a área de Drag and Drop, que permite o upload e processamento simultâneo de múltiplos arquivos PDF e TXT, facilitando a análise de documentos em lote.",
+      "O estado global da aplicação é gerenciado com Redux Toolkit, garantindo que as análises processadas, metadados extraídos e sugestões de resposta sejam mantidos de forma organizada e persistente durante a sessão.",
+      "O backend foi desenvolvido com FastAPI e dockerizado, utilizando técnicas de Few-Shot Prompting para garantir que a IA extraia informações estruturadas como Remetente, Assunto e Resumo Executivo com alta precisão.",
+      "O projeto foi estruturado com foco em escalabilidade e segurança, utilizando variáveis de ambiente para proteção de chaves de API e Docker para garantir a paridade entre os ambientes de desenvolvimento e produção.",
+    ],
+    github: "https://github.com/DaniloMachuca/Email-Classifier",
+    deploy: "https://danilo-machuca-email-classifier.vercel.app/",
+    shortDescription:
+      "Plataforma inteligente de triagem de e-mails corporativos, desenvolvida com React e Python, utilizando modelos de linguagem de larga escala (Llama-3 via Groq).",
+  },
 ];
 
 export const Courses: Course[] = [

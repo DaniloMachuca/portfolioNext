@@ -37,6 +37,8 @@ import {
   SiTailwindcss,
   SiKubernetes,
   SiReactrouter,
+  SiArchlinux,
+  SiLinux,
 } from "react-icons/si";
 
 import { FaMagnifyingGlass } from "react-icons/fa6";
@@ -181,18 +183,20 @@ export const skills: Skills[] = [
   },
   { name: "Figma", category: "tools", icon: FaFigma, color: "#F24E1E" },
   { name: "GitHub", category: "tools", icon: FaGithub, color: "#000000" },
-  {
-    name: "Kanban",
-    category: "tools",
-    icon: MdOutlineViewKanban,
-    color: "#0066ffff",
-  },
-  {
-    name: "Kubernetes",
-    category: "tools",
-    icon: SiKubernetes,
-    color: "#326CE5",
-  },
+  { name: "Linux", category: "tools", icon: SiLinux, color: "#ffcc33" },
+  { name: "Arch", category: "tools", icon: SiArchlinux, color: "#1793d1" },
+  //{
+  //name: "Kanban",
+  //category: "tools",
+  //icon: MdOutlineViewKanban,
+  //color: "#0066ffff",
+  //},
+  //{
+  //name: "Kubernetes",
+  //category: "tools",
+  //icon: SiKubernetes,
+  //color: "#326CE5",
+  //},
 ];
 
 export const projects: Project[] = [

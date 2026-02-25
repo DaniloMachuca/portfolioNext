@@ -41,10 +41,10 @@ const Study = () => {
             A Unip é uma instituição reconhecida pela qualidade de ensino e
             <b> incentivo à inovação tecnológica</b>, oque tem contribuído muito
             para o aprimoramento das minhas habilidades. Após concluir minha
-            graduação, tenho planos de seguir com uma <b>pós-graduação</b> em
-            <b> Engenharia de Software</b> e, posteriormente, um <b>mestrado</b>{" "}
-            no exterior, com o objetivo de aprofundar meus conhecimentos e
-            ampliar minha atuação no <b>setor de tecnologia</b>.
+            graduação, tenho planos de seguir com uma <b>mestrado</b> em
+            <b> Engenharia de Software</b> e, posteriormente, um{" "}
+            <b>doutorado</b> no exterior, com o objetivo de aprofundar meus
+            conhecimentos e ampliar minha atuação no <b>setor de tecnologia</b>.
           </Text>
         </div>
       </Section>

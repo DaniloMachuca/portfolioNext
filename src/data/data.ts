@@ -15,6 +15,7 @@ import {
   FaGulp,
   FaGrunt,
   FaGithub,
+  FaJava,
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -145,10 +146,11 @@ export const skills: Skills[] = [
   { name: "Node.js", category: "backend", icon: FaNodeJs, color: "#339933" },
   { name: "Python", category: "backend", icon: FaPython, color: "#3776AB" },
   { name: "C", category: "backend", icon: SiC, color: "#A8B9CC" },
-  { name: "C++", category: "backend", icon: SiCplusplus, color: "#00599C" },
-  { name: "Golang", category: "backend", icon: SiGoland, color: "#00ADD8" },
+  // { name: "C++", category: "backend", icon: SiCplusplus, color: "#00599C" },
+  // { name: "Golang", category: "backend", icon: SiGoland, color: "#00ADD8" },
   { name: "JSON", category: "backend", icon: SiJson, color: "#000000" },
   { name: "SQL", category: "backend", icon: FaDatabase, color: "#4479A1" },
+  { name: "Java", category: "backend", icon: FaJava, color: "#ED8B00" },
 
   // -- Ferramentas --
   { name: "Jest", category: "tools", icon: SiJest, color: "#C21325" },

@@ -32,16 +32,17 @@ const Home = () => {
               Danilo Machuca de Souza
             </SectionTitle>
             <h4>
-              Desenvolvedor Front-end e estudante de Ciência da Computação na
+              Desenvolvedor Full Stack e estudante de Ciência da Computação na
               UNIP.
             </h4>
             <Text>
               Sou naturalmente curioso e autodidata, o que me leva a explorar
-              novas tecnologias e diferentes formas de resolver problemas. Por
-              isso, atuo de maneira versátil na criação de softwares, criando
-              interfaces modernas e responsivas, fazendo questão de aplicar boas
-              práticas de desenvolvimento. E, assim, continuo expandindo
-              continuamente meu conhecimento técnico e alcance profissional.
+              novas tecnologias e diferentes formas de resolver problemas. Atuo
+              de maneira versátil no desenvolvimento de aplicações web
+              completas, trabalhando tanto no frontend quanto no backend, com
+              foco em organização, boas práticas e soluções eficientes. Busco
+              constantemente expandir meu conhecimento técnico e evoluir
+              profissionalmente através de projetos reais e desafios práticos.
             </Text>
             <SocialMediaHeaderList />
           </div>
@@ -54,14 +55,13 @@ const Home = () => {
           </SectionTitle>
           <Text>
             Adoto uma abordagem organizada e analítica no desenvolvimento de
-            software, integrando diferentes tecnologias em um mesmo projeto e
-            aprendendo novas ferramentas rapidamente. Valorizo comunicação
-            clara, código bem estruturado e soluções escaláveis, que possam
-            evoluir e se adaptar às necessidades futuras. Além disso, utilizo
-            metodologias ágeis, como Scrum e Kanban, para gerenciar tarefas de
-            forma eficiente, facilitar a colaboração entre equipes e garantir
-            entregas contínuas e adaptáveis às mudanças nos requisitos do
-            projeto.
+            software, buscando integrar diferentes tecnologias de forma coerente
+            dentro de um mesmo projeto. Tenho facilidade para aprender novas
+            ferramentas e aplicá-las na prática, sempre priorizando código bem
+            estruturado, clareza na comunicação e organização do fluxo de
+            trabalho. Utilizo princípios de metodologias ágeis, como organização
+            de tarefas e ciclos iterativos, para manter produtividade, foco e
+            evolução constante do projeto.
           </Text>
         </div>
       </Section>

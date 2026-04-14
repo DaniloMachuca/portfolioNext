@@ -16,7 +16,7 @@ const Contact = () => {
   }, []);
   return (
     <S.ImageCircle>
-      <Section img="/foto-de-perfil.jpg" textDirection="right" view="100vh">
+      <Section img="/foto-de-perfil.png" textDirection="right" view="100vh">
         <>
           <S.Contact>
             <SectionTitle>Fale comigo</SectionTitle>

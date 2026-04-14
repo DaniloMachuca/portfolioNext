@@ -24,6 +24,7 @@ import {
   SiVite,
   SiGoland,
   SiCplusplus,
+  SiDotnet,
   SiSass,
   SiLess,
   SiBootstrap,
@@ -39,6 +40,7 @@ import {
   SiReactrouter,
   SiArchlinux,
   SiLinux,
+  SiElectron,
 } from "react-icons/si";
 
 import { FaMagnifyingGlass } from "react-icons/fa6";
@@ -148,8 +150,9 @@ export const skills: Skills[] = [
   { name: "Node.js", category: "backend", icon: FaNodeJs, color: "#339933" },
   { name: "Python", category: "backend", icon: FaPython, color: "#3776AB" },
   { name: "C", category: "backend", icon: SiC, color: "#A8B9CC" },
-  // { name: "C++", category: "backend", icon: SiCplusplus, color: "#00599C" },
+  { name: "C++", category: "backend", icon: SiCplusplus, color: "#00599C" },
   // { name: "Golang", category: "backend", icon: SiGoland, color: "#00ADD8" },
+  { name: "C#/.NET", category: "backend", icon: SiDotnet, color: "#512BD4" },
   { name: "JSON", category: "backend", icon: SiJson, color: "#000000" },
   { name: "SQL", category: "backend", icon: FaDatabase, color: "#4479A1" },
   { name: "Java", category: "backend", icon: FaJava, color: "#ED8B00" },
@@ -185,10 +188,11 @@ export const skills: Skills[] = [
   { name: "GitHub", category: "tools", icon: FaGithub, color: "#000000" },
   { name: "Linux", category: "tools", icon: SiLinux, color: "#ffcc33" },
   { name: "Arch", category: "tools", icon: SiArchlinux, color: "#1793d1" },
+  { name: "Electron", category: "tools", icon: SiElectron, color: "#47848F" },
   //{
   //name: "Kanban",
   //category: "tools",
-  //icon: MdOutlineViewKanban,
+  //icon: MdOutlineViewKanban,\
   //color: "#0066ffff",
   //},
   //{
@@ -415,6 +419,40 @@ export const projects: Project[] = [
     deploy: "https://danilo-machuca-email-classifier.vercel.app/",
     shortDescription:
       "Plataforma inteligente de triagem de e-mails corporativos, desenvolvida com React e Python, utilizando modelos de linguagem de larga escala (Llama-3 via Groq).",
+  },
+  {
+    id: "telemetry-simulator",
+    title: "Telemetry Simulator",
+    image: "/ProjectsImages/telemetry-simulator.png", // Certifique-se de adicionar a imagem nesta pasta
+    skillsUsed: [
+      "Electron",
+      "React (Hooks)",
+      "TypeScript",
+      "TailwindCSS",
+      "Node.js",
+    ],
+    AllSkills: [
+      "Electron",
+      "React (Hooks)",
+      "TypeScript",
+      "TailwindCSS",
+      "Node.js",
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+    ],
+    description: [
+      "O Telemetry Simulator é um ecossistema de aplicações desktop desenvolvido para simular sistemas de telemetria em tempo real, composto por um painel de controle (Telemetry Control) e um painel de visualização (Flight Instruments).",
+      "A arquitetura do projeto utiliza o Electron para criar uma experiência nativa, permitindo que as duas aplicações se comuniquem através da manipulação direta do sistema de arquivos (módulo fs do Node.js) via um arquivo JSON local.",
+      "O gerenciamento de interface foi construído com React e TypeScript, utilizando TailwindCSS para garantir um visual técnico e responsivo, típico de sistemas de monitoramento aeronáutico ou industrial.",
+      "Um dos diferenciais técnicos é a lógica de calibração não linear dos instrumentos. Em vez de uma transição linear simples, os gauges foram calibrados manualmente para simular o comportamento físico e realista de ponteiros e sensores.",
+      "O sistema implementa um monitoramento ativo de alterações no arquivo de dados, garantindo que qualquer ajuste nos sliders do aplicativo de controle seja refletido instantaneamente nos instrumentos de voo sem a necessidade de APIs ou bancos de dados externos.",
+      "O projeto demonstra proficiência em integração entre o mundo Web e Desktop, lidando com persistência de dados local, sincronização de estado entre processos distintos e otimização de performance para atualizações em tempo real.",
+    ],
+    github: "https://github.com/DaniloMachuca/telemetry-simulator", // Verifique se o link está correto
+    deploy: "", // Como é um app Electron (.exe), você pode deixar vazio ou linkar para o release
+    shortDescription:
+      "Simulador de telemetria em tempo real com aplicações desktop integradas via Electron e Node.js, com foco em sincronização de dados local e calibração de instrumentos.",
   },
 ];
 
